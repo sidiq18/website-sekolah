@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+
+header {
+    background-color: rgb(61, 44, 11);
+    /*color: white;*/
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    align-items: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+    color: white;
+}
+
+header nav ul li {
+    cursor: pointer;
+}
+
+.login-contact button {
+    margin-left: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.intro {
+    text-align: center;
+    background-image: url(aaa.jpg);
+    color: white;
+    padding: 50px 20px;
+}
+
+.search-bar {
+    margin: 20px 0;
+}
+
+.search-bar input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.search-bar select, .search-bar button {
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 10px;
+    background-color: #ffffff;
+}
+
+.stat-item {
+    text-align: center;
+}
+
+.stat-item h3 {
+    font-size: 2em;
+    margin: 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    background-color: #00796b;
+    color: white;
+}.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-image {
+    width: 50px; /* Set the desired width */
+    height: auto;
+    margin-right: 10px; /* Add space between image and text */
+}
+
+.logo p {
+    margin: 0; /* Remove default margin */
+    color: white; /* Change text color if needed */
+}
