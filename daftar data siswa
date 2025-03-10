@@ -21,7 +21,7 @@
         </nav>
         <div class="login-contact">
             <button>Login</button>
-            <button>Kontak</button>
+            <button>Register</button>
         </div>
 
     </header>
@@ -35,6 +35,7 @@
                         <th>Nama</th>
                         <th>Jenis Kelamin</th>
                         <th>Kelas</th>
+                        <th>Alamat</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -43,126 +44,147 @@
                         <td>Ibnu</td>
                         <td>Laki - Laki</td>
                         <td>XII RPL</td>
+                        <td>Jl.Kemayoran No.12</td>
                     </tr>
                     <tr>
                         <td>2</td>
                         <td>Vira</td>
                         <td>Perempuan</td>
                         <td>X TKJ</td>
+                        <td>Jl.Ahmad yani No.11</td>
                     </tr>
                     <tr>
                         <td>3</td>
                         <td>Ali Akbar</td>
                         <td>Laki - Laki</td>
                         <td>XII OTKP</td>
+                        <td>Jl.jenderal No.23</td>
+
                     </tr>
                     <tr>
                         <td>4</td>
                         <td>Siti Aisyah</td>
                         <td>Perempuan</td>
                         <td>XII RPL</td>
+                        <td></td>
+
                     </tr>
                     <tr>
                         <td>5</td>
                         <td>Asep</td>
                         <td>Laki - Laki</td>
                         <td>XII TKJ</td>
+                        <td></td>
+
                     </tr>
                     <tr>
                         <td>6</td>
                         <td>jupri</td>
                         <td>Laki - Laki</td>
                         <td>XII RPL</td>
+
                     </tr>
                     <tr>
                         <td>7</td>
                         <td>Rezi</td>
                         <td>Laki - Laki</td>
                         <td>XII RPL</td>
+
                     </tr>
                     <tr>
                         <td>8</td>
                         <td>Mukhlis</td>
                         <td>Laki - Laki</td>
                         <td>XII RPL</td>
+
                     </tr>
                     <tr>
                         <td>9</td>
                         <td>Jamal</td>
                         <td>Laki - Laki</td>
                         <td>XII RPL</td>
+
                     </tr>
                     <tr>
                         <td>10</td>
                         <td>Angga</td>
                         <td>Laki - Laki</td>
                         <td>XII RPL</td>
+
                     </tr>
                     <tr>
                         <td>11</td>
                         <td>Christoper</td>
                         <td>Laki - Laki</td>
                         <td>XII RPL</td>
+
                     </tr>
                     <tr>
                         <td>12</td>
                         <td>Rehan</td>
                         <td>Laki - Laki</td>
                         <td>XII RPL</td>
+
                     </tr>
                     <tr>
                         <td>13</td>
                         <td>Rafli</td>
                         <td>Laki - Laki</td>
                         <td>XII RPL</td>
+
                     </tr>
                     <tr>
                         <td>14</td>
                         <td>Virli</td>
                         <td>Perempuan</td>
                         <td>XII RPL</td>
+
                     </tr>
                     <tr>
                         <td>15</td>
                         <td>Joko</td>
                         <td>Laki - Laki</td>
                         <td>XII RPL</td>
+
                     </tr>
                     <tr>
                         <td>16</td>
                         <td>Agung</td>
                         <td>Laki - Laki</td>
                         <td>XII RPL</td>
+
                     </tr>
                     <tr>
                         <td>17</td>
                         <td>Jaki</td>
                         <td>Laki - Laki</td>
                         <td>XII AKL</td>
+
                     </tr>
                     <tr>
                         <td>18</td>
                         <td>Tisna</td>
                         <td>Laki - Laki</td>
                         <td>XII RPL</td>
+
                     </tr>
                     <tr>
                         <td>19</td>
                         <td>Rohman</td>
                         <td>Laki - Laki</td>
                         <td>XII MM</td>
+
                     </tr>
                     <tr>
                         <td>20</td>
                         <td>Yoga</td>
                         <td>Laki - Laki</td>
                         <td>XII TKJ</td>
+                        <td></td>
                     </tr>
                 </tbody>
             </table>
         </section>
     </main>
-
 </body>
 </html>
-
