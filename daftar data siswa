@@ -1,1 +1,168 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar Data Siswa - SMK Negeri 1 Kota Serang</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="rorr.jpg" alt="Logo SMK Negeri 1 Kota Serang" class="logo-image" height="50px" width="50px"><p>SMK Negeri 1 Kota Serang</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="web school.html">Home</a></li>
+                <li><a href="profil.html">Profil</a></li>
+                <li><a href="ekstrakurikuler.html">Ekstrakurikuler</a></li>
+                <li><a href="data-siswa.html">Daftar Data Siswa</a></li>
+            </ul>
+        </nav>
+        <div class="login-contact">
+            <button>Login</button>
+            <button>Kontak</button>
+        </div>
+
+    </header>
+    <main>
+        <section class="data-siswa">
+            <h2>Daftar Data Siswa</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>Nama</th>
+                        <th>Jenis Kelamin</th>
+                        <th>Kelas</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Ibnu</td>
+                        <td>Laki - Laki</td>
+                        <td>XII RPL</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Vira</td>
+                        <td>Perempuan</td>
+                        <td>X TKJ</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Ali Akbar</td>
+                        <td>Laki - Laki</td>
+                        <td>XII OTKP</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Siti Aisyah</td>
+                        <td>Perempuan</td>
+                        <td>XII RPL</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Asep</td>
+                        <td>Laki - Laki</td>
+                        <td>XII TKJ</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>jupri</td>
+                        <td>Laki - Laki</td>
+                        <td>XII RPL</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>Rezi</td>
+                        <td>Laki - Laki</td>
+                        <td>XII RPL</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>Mukhlis</td>
+                        <td>Laki - Laki</td>
+                        <td>XII RPL</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td>Jamal</td>
+                        <td>Laki - Laki</td>
+                        <td>XII RPL</td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td>Angga</td>
+                        <td>Laki - Laki</td>
+                        <td>XII RPL</td>
+                    </tr>
+                    <tr>
+                        <td>11</td>
+                        <td>Christoper</td>
+                        <td>Laki - Laki</td>
+                        <td>XII RPL</td>
+                    </tr>
+                    <tr>
+                        <td>12</td>
+                        <td>Rehan</td>
+                        <td>Laki - Laki</td>
+                        <td>XII RPL</td>
+                    </tr>
+                    <tr>
+                        <td>13</td>
+                        <td>Rafli</td>
+                        <td>Laki - Laki</td>
+                        <td>XII RPL</td>
+                    </tr>
+                    <tr>
+                        <td>14</td>
+                        <td>Virli</td>
+                        <td>Perempuan</td>
+                        <td>XII RPL</td>
+                    </tr>
+                    <tr>
+                        <td>15</td>
+                        <td>Joko</td>
+                        <td>Laki - Laki</td>
+                        <td>XII RPL</td>
+                    </tr>
+                    <tr>
+                        <td>16</td>
+                        <td>Agung</td>
+                        <td>Laki - Laki</td>
+                        <td>XII RPL</td>
+                    </tr>
+                    <tr>
+                        <td>17</td>
+                        <td>Jaki</td>
+                        <td>Laki - Laki</td>
+                        <td>XII AKL</td>
+                    </tr>
+                    <tr>
+                        <td>18</td>
+                        <td>Tisna</td>
+                        <td>Laki - Laki</td>
+                        <td>XII RPL</td>
+                    </tr>
+                    <tr>
+                        <td>19</td>
+                        <td>Rohman</td>
+                        <td>Laki - Laki</td>
+                        <td>XII MM</td>
+                    </tr>
+                    <tr>
+                        <td>20</td>
+                        <td>Yoga</td>
+                        <td>Laki - Laki</td>
+                        <td>XII TKJ</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+</body>
+</html>
 
