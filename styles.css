@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: whitesmoke;
+    
 }
 
 header {
@@ -134,4 +135,151 @@ table tr:hover {
 
 table td:first-child {
     font-weight: bold;
+}
+/* ========== LOGIN STYLES ========== */
+.login-form {
+    width: 300px;
+    margin: 50px auto; /* Meletakkan form di tengah */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.login-form h1 {
+    text-align: center;
+    color: #333;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.login-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form label {
+    margin: 10px 0 5px;
+    color: #555;
+    font-weight: bold;
+}
+
+.login-form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 1rem;
+}
+
+.login-form button {
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-form button:hover {
+    background-color: #0056b3;
+}
+
+.login-form p {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.login-form a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login-form a:hover {
+    text-decoration: underline;
+}
+/* ========== REGISTER STYLES ========== */
+.register-form {
+    width: 100%;          /* Membuat elemen selebar halaman */
+    margin: 20px;         /* Jarak luar, bisa disesuaikan atau 0 */
+    padding: 20px;        /* Jarak dalam */
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: none;     /* Hilangkan shadow jika tidak diinginkan */
+}
+
+.register-form h1 {
+    color: #333;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    /* Jika ingin tetap di tengah, bisa tambahkan text-align:center */
+}
+
+.register-form form {
+    max-width: 600px; 
+    margin: 0; 
+    display: flex;
+    flex-direction: column;
+}
+
+.register-form label {
+    margin: 10px 0 5px;
+    color: #555;
+    font-weight: bold;
+}
+
+.register-form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 1rem;
+}
+
+.register-form button {
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.register-form button:hover {
+    background-color: #0056b3;
+}
+
+.register-form p {
+    margin-top: 15px;
+    font-size: 0.9rem;
+}
+
+.register-form a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.register-form a:hover {
+    text-decoration: underline;
+}
+
+/* ========== RESPONSIVE FORMS ========== */
+@media (max-width: 600px) {
+    .login-form {
+        width: 90%;
+        margin: 30px auto;
+    }
+    .register-form {
+        width: 90%;
+        margin: 30px auto;
+    }
 }
