@@ -138,60 +138,66 @@ table td:first-child {
 }
 /* ========== LOGIN STYLES ========== */
 .login-form {
-    width: 300px;
-    margin: 50px auto; /* Meletakkan form di tengah */
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    background-color: #f9f9f9;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    margin: 60px auto;
+    padding: 25px;
+    border: none;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #ffffff, #f9f9f9);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
 }
 
-.login-form h1 {
+/* Header Text Style */
+header {
     text-align: center;
-    color: #333;
-    font-size: 1.8rem;
-    margin-bottom: 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+   
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Tambahkan efek bayangan */
 }
 
-.login-form form {
-    display: flex;
-    flex-direction: column;
-}
 
 .login-form label {
-    margin: 10px 0 5px;
+    margin: 12px 0 6px;
     color: #555;
     font-weight: bold;
 }
 
 .login-form input {
-    padding: 10px;
+    padding: 12px;
     border: 1px solid #ccc;
-    border-radius: 5px;
-    margin-bottom: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
     font-size: 1rem;
+    transition: box-shadow 0.3s ease;
+}
+
+.login-form input:focus {
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+    outline: none;
 }
 
 .login-form button {
-    padding: 10px;
+    padding: 12px;
     font-size: 1rem;
-    background-color: #007BFF;
+    background: linear-gradient(135deg, #007BFF, #0056b3);
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: background 0.3s ease, transform 0.2s;
 }
 
 .login-form button:hover {
-    background-color: #0056b3;
+    background: linear-gradient(135deg, #0056b3, #004494);
+    transform: scale(1.02);
 }
 
 .login-form p {
-    margin-top: 15px;
+    margin-top: 20px;
     text-align: center;
-    font-size: 0.9rem;
+    font-size: 0.95rem;
 }
 
 .login-form a {
@@ -203,6 +209,7 @@ table td:first-child {
 .login-form a:hover {
     text-decoration: underline;
 }
+
 /* ========== REGISTER STYLES ========== */
 .register-form {
     width: 100%;          /* Membuat elemen selebar halaman */
@@ -271,6 +278,105 @@ table td:first-child {
 .register-form a:hover {
     text-decoration: underline;
 }
+
+/* PPDB CSS*/
+/* Mengatur background gradien pada body */
+.ppdb-page{
+    margin: 0;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, rgba(206, 122, 13, 0.582), rgba(82, 31, 31, 0.493));
+    color: #333;
+}
+
+/* Mengatur judul utama dan subjudul */
+h1, h2 {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 5px;
+    margin-top: 0;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Style untuk form */
+form {
+    max-width: 700px;
+    margin: 30px auto;
+    background-color: #f9f9f9; /* Warna putih lembut */
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Fieldset dan legend */
+fieldset {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+fieldset legend {
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+/* Mengatur jarak tiap form-group */
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* Label */
+.form-group label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+/* Input teks, date, number, dan select */
+.form-group input[type="text"],
+.form-group input[type="date"],
+.form-group input[type="number"],
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    font-size: 0.95rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Radio & checkbox */
+.form-inline {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.form-inline input[type="radio"],
+.form-inline input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+/* Tombol Submit */
+.submit-btn-container {
+    text-align: center;
+    margin-top: 20px;
+}
+.submit-btn-container button[type="submit"] {
+    background-color: #6a11cb;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    padding: 12px 24px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+.submit-btn-container button[type="submit"]:hover {
+    background-color: #2575fc;
+}
+
+  
 
 /* ========== RESPONSIVE FORMS ========== */
 @media (max-width: 600px) {
