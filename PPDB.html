@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulir Pendaftaran Siswa Baru</title>
+  <!-- Memanggil file CSS eksternal -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="ppdb-page">
+  <h1>FORMULIR PENDAFTARAN SISWA BARU</h1>
+  <h2>Tahun Ajaran 2024-2025</h2>
+
+  <form action="#" method="POST">
+    <!-- Biodata Siswa -->
+    <fieldset>
+      <legend>I. Biodata Siswa</legend>
+      <div class="form-group">
+        <label for="nama-lengkap">Nama Lengkap:</label>
+        <input type="text" id="nama-lengkap" name="nama-lengkap" required>
+      </div>
+
+      <div class="form-group">
+        <label for="nomor-induk">Nomor Induk (NIS):</label>
+        <input type="text" id="nomor-induk" name="nomor-induk" required>
+      </div>
+
+      <div class="form-group">
+        <label for="nisn">NISN:</label>
+        <input type="text" id="nisn" name="nisn" required>
+      </div>
+
+      <div class="form-group">
+        <label for="tanggal_lahir">Tanggal Lahir:</label>
+        <input type="date" id="tanggal_lahir" name="tanggal_lahir" required>
+      </div>
+
+      <div class="form-group">
+        <label>Jenis Kelamin:</label>
+        <div class="form-inline">
+          <input type="radio" id="jk-laki" name="jenis-kelamin" value="Laki-laki" required>
+          <label for="jk-laki">Laki-laki</label>
+        </div>
+        <div class="form-inline">
+          <input type="radio" id="jk-perempuan" name="jenis-kelamin" value="Perempuan">
+          <label for="jk-perempuan">Perempuan</label>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="agama">Agama:</label>
+        <select id="agama" name="agama" required>
+          <option value="">--Pilih Agama--</option>
+          <option value="Islam">Islam</option>
+          <option value="Kristen">Kristen</option>
+          <option value="Katolik">Katolik</option>
+          <option value="Hindu">Hindu</option>
+          <option value="Buddha">Buddha</option>
+          <option value="Konghucu">Konghucu</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="no-telepon">No. Telepon:</label>
+        <input type="text" id="no-telepon" name="no-telepon" required>
+      </div>
+
+      <div class="form-group">
+        <label for="asal-sekolah">Asal Sekolah:</label>
+        <input type="text" id="asal-sekolah" name="asal-sekolah" required>
+      </div>
+    </fieldset>
+
+    <!-- Data Orang Tua Kandung -->
+    <fieldset>
+      <legend>II. Data Orang Tua Kandung</legend>
+      <div class="form-group">
+        <label for="nama-ayah">Nama Lengkap Ayah:</label>
+        <input type="text" id="nama-ayah" name="nama-ayah" required>
+      </div>
+      <div class="form-group">
+        <label for="nama-ibu">Nama Lengkap Ibu:</label>
+        <input type="text" id="nama-ibu" name="nama-ibu" required>
+      </div>
+      <div class="form-group">
+        <label for="alamat-orang-tua">Alamat Orang Tua:</label>
+        <input type="text" id="alamat-orang-tua" name="alamat-orang-tua" required>
+      </div>
+      <div class="form-group">
+        <label for="telp-orang-tua">Telepon:</label>
+        <input type="text" id="telp-orang-tua" name="telp-orang-tua">
+      </div>
+      <div class="form-group">
+        <label for="pekerjaan-ayah">Pekerjaan Ayah:</label>
+        <input type="text" id="pekerjaan-ayah" name="pekerjaan-ayah">
+      </div>
+      <div class="form-group">
+        <label for="pekerjaan-ibu">Pekerjaan Ibu:</label>
+        <input type="text" id="pekerjaan-ibu" name="pekerjaan-ibu">
+      </div>
+    </fieldset>
+
+    <!-- Data Orang Tua Wali -->
+    <fieldset>
+      <legend>III. Data Orang Tua Wali</legend>
+      <div class="form-group">
+        <label for="nama-wali">Nama Lengkap Wali:</label>
+        <input type="text" id="nama-wali" name="nama-wali">
+      </div>
+      <div class="form-group">
+        <label for="alamat-wali">Alamat Wali:</label>
+        <input type="text" id="alamat-wali" name="alamat-wali">
+      </div>
+      <div class="form-group">
+        <label for="telp-wali">Nomor Telepon Wali:</label>
+        <input type="text" id="telp-wali" name="telp-wali">
+      </div>
+      <div class="form-group">
+        <label for="pekerjaan-wali">Pekerjaan Wali:</label>
+        <input type="text" id="pekerjaan-wali" name="pekerjaan-wali">
+      </div>
+    </fieldset>
+
+    <!-- Checkboxes untuk Persyaratan Tambahan -->
+    <fieldset>
+        <legend>VI. Dokumen Pendukung</legend>
+        <div class="form-group">
+          <label for="foto-diri">Foto Diri:</label>
+          <input type="file" id="foto-diri" name="foto-diri" accept="image/*">
+        </div>
+        <div class="form-group">
+          <label for="scan-kk">Scan Kartu Keluarga:</label>
+          <input type="file" id="scan-kk" name="scan-kk" accept=".pdf,image/*">
+        </div>
+        <div class="form-group">
+          <label for="scan-akta">Scan Akta Kelahiran:</label>
+          <input type="file" id="scan-akta" name="scan-akta" accept=".pdf,image/*">
+        </div>
+        <div class="form-group">
+          <label for="scan-ijazah">Scan Ijazah/SKL:</label>
+          <input type="file" id="scan-ijazah" name="scan-ijazah" accept=".pdf,image/*">
+        </div>
+        <div class="form-group">
+          <label for="scan-ktp-ortu">Scan KTP Orang Tua (Opsional):</label>
+          <input type="file" id="scan-ktp-ortu" name="scan-ktp-ortu" accept=".pdf,image/*">
+        </div>
+      </fieldset>
+    </div>
+  </main>
+
+    <!-- Tombol Submit -->
+    <div class="submit-btn-container">
+      <button type="submit">Daftar</button>
+    </div>
+  </form>
+</body>
+</html>
