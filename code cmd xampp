@@ -1,33 +1,4 @@
-Microsoft Windows [Version 10.0.19045.5737]
-(c) Microsoft Corporation. All rights reserved.
 
-C:\Users\PC-User>ipconfig
-
-Windows IP Configuration
-
-
-Wireless LAN adapter Wi-Fi 2:
-
-   Media State . . . . . . . . . . . : Media disconnected
-   Connection-specific DNS Suffix  . :
-
-Wireless LAN adapter Local Area Connection* 12:
-
-   Media State . . . . . . . . . . . : Media disconnected
-   Connection-specific DNS Suffix  . :
-
-Wireless LAN adapter Local Area Connection* 13:
-
-   Media State . . . . . . . . . . . : Media disconnected
-   Connection-specific DNS Suffix  . :
-
-Ethernet adapter Ethernet 4:
-
-   Connection-specific DNS Suffix  . :
-   Link-local IPv6 Address . . . . . : fe80::3:b86a:962:2436%22
-   IPv4 Address. . . . . . . . . . . : 192.168.3.149
-   Subnet Mask . . . . . . . . . . . : 255.255.255.0
-   Default Gateway . . . . . . . . . : 192.168.3.1
 
 C:\Users\PC-User>cd ..
 
